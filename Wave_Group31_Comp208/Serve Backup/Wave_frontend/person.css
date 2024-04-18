@@ -1,0 +1,248 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.centered-page {
+
+    background-color: #262626;
+    color: white; 
+    /*display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+    border-radius: 10px; 
+    margin: 0 auto; 
+    display: flex;
+}
+
+.container{
+    display: inline-block;
+    position: relative;
+}
+
+.head{
+    /*background-color: pink;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    /*text-align: center;*/
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.head button {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 65px;
+    height: 35px;
+    background-color: #262626; 
+    color: white; 
+    border: 2px solid #fff; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+.head button a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.head button:hover {
+    background-color: #fff; 
+    color: #262626; 
+}
+
+.head button a:hover {
+    color: #262626;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+
+}
+
+.user{
+    float: left;
+    /*background-color: pink;*/
+    margin-top: 100px 50px;
+    width: 100%;
+    height: 150px;
+}
+
+
+
+
+.circle{
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    float: left;
+    position: relative;
+
+}
+
+.circle a{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    text-decoration: none;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.circle img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.name{
+    float: right;
+    margin-top: 35px;
+    position: relative;
+}
+
+.name span{
+    font-size: 25px;
+    float: right;
+    text-decoration: none;
+    margin-right: 740px;
+    position: relative;
+    z-index: 2;
+}
+
+.nameInput{
+    float: right;
+    margin-right: 240px;
+    position: relative;
+    z-index: 1 ;
+}
+
+.information{
+    margin-left: 150px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    /*background-color: pink;*/
+    width: 600px;
+    height: 350px;
+    display: inline-block;
+    position: relative;
+}
+
+
+
+.formGroup{
+    margin-bottom: 30px; 
+    width: 750px;
+    height: 75px;
+}
+
+.formGroup label{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 25px;
+    width: 150px;
+}
+.formGroup span{
+    float: right;
+    margin-right: 345px;
+    width: 185px;
+    height: 25px;
+    line-height: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+.formGroup select{
+    width: 192px;
+    height: 29px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #262626;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    float: right;
+    margin-right: 345px;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+
+input[type="number"], input[type="text"]{
+    width: 185px;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #262626;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    float: right;
+    margin-right: 345px;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+
+input::placeholder{
+    color: #fff;
+    font-size: 15px;
+}
+
+.data-input {
+    display: none; 
+}
+.data-text {
+    display: inline-block; 
+}
+
+.bottom{
+    bottom: 75px;
+    float: right;
+    margin-right: 120px;
+    margin-top: 100px;
+}
+
+.bottom button {
+    margin-right: 25px;
+    width: 125px;
+    height: 35px;
+    background-color: #262626; 
+    color: white; 
+    border: 2px solid #fff; 
+    border-radius: 10px;
+    font-size: 25px; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.bottom button:hover {
+    background-color: #fff;
+    color: #262626;
+}  
+
+
+  
+  
+
+
+
